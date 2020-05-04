@@ -272,9 +272,30 @@ a {
   max-width: 45%;
 }
 
+.mainContent .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .mainContent a {
-  color: #000;
+  color: #3c9f8f;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3c9f8f;
+}
+
+.mainContent a div {
+  float: right;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.mainContent a div img {
+  width: 50px;
 }
 /*# sourceMappingURL=style.css.map */
