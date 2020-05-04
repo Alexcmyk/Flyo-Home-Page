@@ -1,0 +1,25 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    padding:25px;
+    align-items: center;
+
+    .logo {
+        max-width: 140px;
+    }
+
+    a {
+        color: #000;
+        margin-left: 20px;
+        font-size: 18px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid #fff;
+        transition: all 0.3s ease;
+        font-family: $bodyFont;
+    }
+
+    a:hover {
+        border-bottom: 2px solid $mainCta;
+    }
+
+}
