@@ -1,7 +1,46 @@
 .contentBG {
-    background-color: $secondaryBlue;
+
+    img {
+        width: 100%;
+    }
+
 }
 
 .mainContent {
-    padding: 25px;
+    margin-top: -10px;
+    display: flex;
+    padding: 150px 50px 250px 50px;
+    background-color: $grayOne;
+    color: #000;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    .secondaryHero {
+        max-width: 51%;
+
+        h2 {
+            font-size: 40px;
+            font-family: $mainHeading;
+            line-height: 1.7;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: $bodyFont;
+        }
+
+    }
+
+    img {
+        max-width: 45%;
+    }
+
+    a {
+        color: #000;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
 }

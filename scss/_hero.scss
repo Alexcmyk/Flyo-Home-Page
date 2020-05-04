@@ -1,12 +1,12 @@
 .hero {
     display: flex;
-    padding: 25px;
-    align-items: center;;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
 
     .mainText {
         flex-grow: 1;
         max-width: 50%;
-        padding-right: 25px;
 
         h1 {
             font-size: 40px;
@@ -61,6 +61,6 @@
     }
 
     img {
-        max-width: 50%;
+        max-width: 45%;
     }
 }
