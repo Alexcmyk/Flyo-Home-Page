@@ -78,4 +78,9 @@ hr {
 input, select {
   vertical-align: middle;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /*# sourceMappingURL=main.css.map */
