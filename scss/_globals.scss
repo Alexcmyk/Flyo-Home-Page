@@ -64,3 +64,31 @@ $linkColor: hsl(170, 45%, 43%);
 $grayOne: hsl(240, 75%, 98%);
 $grayTwo: hsl(0, 0%, 75%);
 
+// Main Button CTA
+
+.get_started {
+
+    button {
+        margin-left: 20PX;
+        color: #fff;
+        font-size: .9em;
+        padding: 1.25rem 4rem;
+        border-radius: 5px;
+        background-color: $mainCta;
+        border: none;
+        box-shadow: 0px 5px 7px rgba(0,0,0,0.2);
+        transition: box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+
+    button:hover {
+        box-shadow: 0px 3px 10px 3px rgba(16, 102, 201, 0.6);
+    }
+}
+
+// Background Colors
+
+.colorTwo {
+    background-color: $secondaryBlue;
+}
+

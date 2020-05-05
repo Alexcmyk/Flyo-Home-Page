@@ -20,43 +20,43 @@
             font-family: $bodyFont;
         }
 
-    .get_started {
+        .get_started {
 
-        margin-top: 40px;
-        display: flex;
-        justify-content: flex-start;
-        
+            margin-top: 40px;
+            display: flex;
+            justify-content: flex-start;
+            
 
-        input {
-            border: 1px solid #000;
-            border-radius: 5px;
-            padding-left: 10px;
-            width: 60%;
-            font-size: 13px;
-        }
+            input {
+                border: 1px solid #000;
+                border-radius: 5px;
+                padding-left: 10px;
+                width: 60%;
+                font-size: 13px;
+            }
 
-        input::placeholder {
-            color: #a7a7a7
-        }
+            input::placeholder {
+                color: #a7a7a7
+            }
 
-        button {
-            margin-left: 20PX;
-            color: #fff;
-            font-size: .9em;
-            padding: 1.25rem 4rem;
-            border-radius: 5px;
-            background-color: $mainCta;
-            border: none;
-            box-shadow: 0px 5px 7px rgba(0,0,0,0.2);
-            transition: box-shadow 0.3s ease;
-            cursor: pointer;
-        }
+            button {
+                margin-left: 20PX;
+                color: #fff;
+                font-size: .9em;
+                padding: 1.25rem 4rem;
+                border-radius: 5px;
+                background-color: $mainCta;
+                border: none;
+                box-shadow: 0px 5px 7px rgba(0,0,0,0.2);
+                transition: box-shadow 0.3s ease;
+                cursor: pointer;
+            }
 
-        button:hover {
-            box-shadow: 0px 3px 10px 3px rgba(16, 102, 201, 0.6);
-        }
+            button:hover {
+                box-shadow: 0px 3px 10px 3px rgba(16, 102, 201, 0.6);
+            }
 
-        }
+            }
     
     }
 

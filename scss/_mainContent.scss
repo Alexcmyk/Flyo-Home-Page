@@ -6,6 +6,10 @@
 
 }
 
+.secondaryColor {
+    background-color: $grayOne;
+}
+
 .mainContent {
     margin-top: -10px;
     display: flex;
@@ -33,7 +37,7 @@
 
     }
 
-    img {
+    .secondImage {
         max-width: 45%;
     }
 
@@ -45,21 +49,71 @@
     a {
         color: $linkColor;
         display: inline-block;
-        margin-top: 10px;
-        padding-bottom: 5px;
-        border-bottom: 1px solid $linkColor;
+        margin-top: 20px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid $linkColor;
+        font-size: 20px;
 
 
         div {
 
             float: right;
             margin-left: 10px;
-            margin-top: 2px;
+            margin-top: 5px;
 
             img {
-                width: 50px;
+                width: 20px;
+                transition: all 0.3s ease;
             }
         }
+    }
+
+    a:hover img {
+        transform: translateX( 5px) ;
+    }
+
+    .blockquote {
+        max-width: 70%;
+        line-height: 1.9;
+        background-color: #fff;
+        font-weight: 400;
+        font-family: $bodyFont;
+        font-size: 15px;
+        margin-top: 50px;
+        padding: 35px 45px;
+        border-radius: 5px;
+        box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.1);
+
+        blockquote {
+            margin-top: 20px;
+        }
+
+        .quotation {
+            width: 20px;
+        }
+
+        .quoteText {
+
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+
+            img {
+                border-radius: 50%;
+                max-width: 40px;
+                margin-top: 10px;   
+            }
+
+            .info {
+                padding-top: 10px;
+                margin-left: 10px;
+                line-height: 1.25;
+                font-family: $mainHeading;
+
+            }
+
+        }
+        
     }
 
 }
