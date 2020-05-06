@@ -5,7 +5,7 @@ $mainFont: 'Raleway';
 $bodyFont: 'Open Sans';
 
 // Primary Colors
-$footer: hsl(243, 87%, 12%);
+$header: hsl(243, 87%, 12%);
 $earlyAccess: hsl(238, 22%, 44%);
 
 // Accent colors
@@ -15,6 +15,7 @@ $linkButton: hsl(170, 45%, 43%);
 // Neutral colors
 $stayProductive: hsl(240, 75%, 98%);
 $bodyColor: hsl(243, 87%, 12%);
+$footer: hsl(243, 87%, 12%);
 
 
 // HTML 5 Reset 
@@ -54,10 +55,34 @@ body {
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 75px;
+    padding: 0px 75px;
 }
 
 ul {
     list-style-type: none;
+}
+
+// Branded Styles
+
+
+// Type Styles
+.mainTitle {
+    font-size: 36px;
+    color: $header;
+    line-height: 1.6;
+    font-family: $mainFont;
+}
+
+// UI Styles
+
+.mainButton {
+    font-size: 13px;
+    padding: 14px 65px;
+    border-radius: 5px;
+    background-color: $mainButton;
+    color: #fff;
+    font-family: $bodyFont;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+    border: none;
 }
 

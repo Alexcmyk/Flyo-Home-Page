@@ -1,7 +1,12 @@
-header {
+
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 30px;
+ 
 
     img {
         max-width: 175px;
