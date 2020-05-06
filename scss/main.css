@@ -106,6 +106,15 @@ ul {
   list-style-type: none;
 }
 
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 .mainTitle {
   font-size: 36px;
   color: #070439;
@@ -123,6 +132,15 @@ ul {
   -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   border: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.mainEmail {
+  padding: 15px 150px 15px 12px;
+  border: 1px solid #464646;
+  border-radius: 4px;
+  margin-right: 20px;
 }
 
 .header {
@@ -182,13 +200,6 @@ ul {
   margin-top: 30px;
 }
 
-.hero .hero_text .hero_cta input {
-  padding: 15px 150px 15px 12px;
-  border: 1px solid #464646;
-  border-radius: 4px;
-  margin-right: 20px;
-}
-
 .hero .hero_text .hero_cta input::-webkit-input-placeholder {
   font-size: 14px;
   color: #d6d6d6;
@@ -207,6 +218,12 @@ ul {
 .hero .hero_text .hero_cta input::placeholder {
   font-size: 14px;
   color: #d6d6d6;
+}
+
+.hero .hero_text .hero_cta .mainButton:hover {
+  background-color: #1d4ccd;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .hero .hero_image {
