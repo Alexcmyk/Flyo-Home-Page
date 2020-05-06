@@ -196,6 +196,12 @@ button {
   padding-right: 40px;
 }
 
+.hero .hero_text h3 {
+  font-size: 13px;
+  padding-bottom: 3px;
+  color: #a7a7a7;
+}
+
 .hero .hero_text .hero_cta {
   margin-top: 30px;
 }
