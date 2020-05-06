@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        max-width: 175px;
+    }
+
+    nav {
+
+        a {
+            color: $bodyColor;
+            margin-left:50px;
+            font-size: 17px;
+            padding-bottom: 3px;
+            border-bottom:  #fff;
+            transition: border 0.3s ease;
+        }
+
+        a:hover {
+            border-bottom: 2px solid $mainButton;
+        }
+    }
+}

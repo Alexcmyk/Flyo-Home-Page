@@ -1,13 +1,31 @@
-/*
-*  html5resetcss
-*/
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+$mainFont: 'Raleway';
+$bodyFont: 'Open Sans';
+
+// Primary Colors
+$footer: hsl(243, 87%, 12%);
+$earlyAccess: hsl(238, 22%, 44%);
+
+// Accent colors
+$mainButton: hsl(224, 93%, 58%);
+$linkButton: hsl(170, 45%, 43%);
+
+// Neutral colors
+$stayProductive: hsl(240, 75%, 98%);
+$bodyColor: hsl(243, 87%, 12%);
+
+
+// HTML 5 Reset 
+
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 nav ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration: none;}
 ins{background-color:#ff9;color:#000;text-decoration:none}
 mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
@@ -16,7 +34,30 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-* {
+// General Styles
+html {
+    font-size: 100%;
+}
+
+*, *:after, *:before {
     box-sizing: border-box;
+}
+
+body {
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.5;
+    color: $bodyColor;
+    font-family: $bodyFont;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 75px;
+}
+
+ul {
+    list-style-type: none;
 }
 
