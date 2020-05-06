@@ -143,6 +143,16 @@ button {
   margin-right: 20px;
 }
 
+.bg-curve-desktop,
+.bg-curve-mobile {
+  width: 100%;
+  display: block;
+}
+
+.bg-curve-mobile {
+  display: none;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,6 +191,7 @@ button {
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
   padding-top: 30px;
+  margin-bottom: 70px;
 }
 
 .hero .hero_text {
@@ -233,6 +244,97 @@ button {
 }
 
 .hero .hero_image {
+  max-width: 100%;
+}
+
+.stay_productive {
+  background-color: #f6f6fe;
+}
+
+.productive {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.productive .productive_text {
+  padding-right: 40px;
+}
+
+.productive .productive_text h2 {
+  margin-bottom: 20px;
+}
+
+.productive .productive_text p {
+  margin-top: 20px;
+}
+
+.productive .productive_text .link {
+  display: inline-block;
+  color: #3c9f8f;
+  margin-top: 30px;
+  position: relative;
+  border-bottom: 2px solid #3c9f8f;
+}
+
+.productive .productive_text .link::after {
+  content: url(../images/icon-arrow.svg);
+  padding-left: 5px;
+  margin-top: 3px;
+  position: absolute;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.productive .productive_text .link:hover::after {
+  margin-left: 10px;
+}
+
+.productive .productive_text .quote {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 35px;
+  font-size: 15px;
+  max-width: 80%;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.productive .productive_text .quote blockquote {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.productive .productive_text .quote img {
+  margin-top: 30px;
+  margin-right: 10px;
+  float: left;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.productive .productive_text .quote h3 {
+  font-family: "Raleway";
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.productive .productive_text .quote h4 {
+  font-family: "Raleway";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.productive .productive_text .quote::before {
+  content: url(../images/icon-quotes.svg);
+}
+
+.productive .productive_image {
   max-width: 100%;
 }
 
