@@ -23,7 +23,46 @@
         }
 
     }
-
    
+}
+
+@media (max-width:950px) {
+
+    .hero {
+
+        text-align: center;
+
+        .hero_text {
+            max-width: 60%;
+            justify-self: center;
+            padding: 0;
+
+            p {
+                padding: 0;
+            }
+        }
+
+        .hero_image {
+            grid-row: 1;
+            max-width: 80%;
+            justify-self: center;
+            margin-bottom: 30px;
+        }
+
+        .hero_cta {
+            display: grid;
+        
+            justify-items: center;
+
+            input {
+            
+                margin: 0;
+            }
+
+        }
+
+        
+    
+    }
 
 }

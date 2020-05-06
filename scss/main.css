@@ -188,8 +188,8 @@ button {
 .hero {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   padding-top: 30px;
   margin-bottom: 70px;
 }
@@ -254,8 +254,8 @@ button {
 .productive {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   padding-top: 30px;
   padding-bottom: 100px;
 }
@@ -336,23 +336,5 @@ button {
 
 .productive .productive_image {
   max-width: 100%;
-}
-
-@media (max-width: 1260px) {
-  .mainButton {
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .hero .hero_text .mainTitle {
-    font-size: 25px;
-  }
-  .hero .hero_text p {
-    font-size: 15px;
-  }
-  .hero .hero_text button {
-    padding: 10px 20px;
-  }
 }
 /*# sourceMappingURL=main.css.map */
