@@ -235,4 +235,22 @@ button {
 .hero .hero_image {
   max-width: 100%;
 }
+
+@media (max-width: 1260px) {
+  .mainButton {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero .hero_text .mainTitle {
+    font-size: 25px;
+  }
+  .hero .hero_text p {
+    font-size: 15px;
+  }
+  .hero .hero_text button {
+    padding: 10px 20px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
