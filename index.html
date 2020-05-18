@@ -7,7 +7,7 @@
   <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./scss/main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <script src="https://kit.fontawesome.com/76afa5c796.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
 
@@ -87,28 +87,42 @@
   </section>
 
   <footer>
-    <div class="wrapper">
+    <div class="wrapper grid">
+
       <div class="contact">
-        Phone: +1-543-123-4567
-        example@fylo.com
+        <img src="./images/logo-white.svg" alt="">
+        <p>
+          <i class="fas fa-phone-alt"></i>
+          Phone: +1-543-123-4567
+        </p>
+        <p>
+          <i class="fas fa-envelope"></i>
+          example@fylo.com
+        </p>
       </div>
 
-      <div class="footer-nav">
-        <nav class="col-one">
-          <a href="#">About Us</a>
-          <a href="#">Jobs</a>
-          <a href="#">Press</a>
-          <a href="#"> Blog</a>
-        </nav>
+      <nav class="col-one">
+        <a href="#">About Us</a>
+        <a href="#">Jobs</a>
+        <a href="#">Press</a>
+        <a href="#">Blog</a>
+      </nav>
 
-        <nav class="col-two">
-          <a href="#">Contact Us</a>
-          <a href="#">Terms</a>
-          <a href="#">Privacy</a>
-        </nav>
-      </div>
+      <nav class="col-two">
+        <a href="#">Contact Us</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </nav>
+
+      <nav class="social">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram-square"></i>
+      </nav>
+
     </div>
   </footer>
+
 </body>
 
 </html>
