@@ -1,0 +1,47 @@
+.early_access {
+    background-color: $earlyAccess;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding-top: 110px;
+    padding-bottom: 100px;
+
+    h1 {
+        font-size: 30px;
+        font-family: $mainFont;
+        font-weight: 700;
+    }
+
+    p {
+        margin-top: 35px;
+    }
+
+    .access_input {
+        // border: 1px solid red;
+       
+        input {
+            display: block;
+            width: 80%;
+            padding: 20px 10px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+        }
+
+        input::placeholder {
+            font-size: 14px;
+            color: rgb(214, 214, 214);
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 15px 35px;
+        }
+
+        .mainButton:hover {
+            background-color: $mainHover;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+        }
+
+
+    }
+}

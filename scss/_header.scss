@@ -1,25 +1,30 @@
-.mainHeader {
+
+
+.header {
     display: flex;
-    justify-content: space-between;
-    padding: 50px;
     align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 30px;
+ 
 
-    .logo {
-        max-width: 140px;
+    img {
+        max-width: 175px;
     }
 
-    a {
-        color: #000;
-        margin-left: 20px;
-        font-size: 18px;
-        padding-bottom: 3px;
-        border-bottom: 2px solid #fff;
-        transition: all 0.3s ease;
-        font-family: $bodyFont;
-    }
+    nav {
 
-    a:hover {
-        border-bottom: 2px solid $mainCta;
-    }
+        a {
+            color: $bodyColor;
+            margin-left:50px;
+            font-size: 17px;
+            padding-bottom: 3px;
+            border-bottom:  #fff;
+            transition: border 0.3s ease;
+        }
 
+        a:hover {
+            border-bottom: 2px solid $mainButton;
+        }
+    }
 }
