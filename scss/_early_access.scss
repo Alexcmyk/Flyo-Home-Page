@@ -1,59 +1,55 @@
 .early_access {
-    background-color: $earlyAccess;
-    color: #fff;
-    padding-top: 110px;
-    padding-bottom: 100px;
+  background-color: $earlyAccess;
+  color: #fff;
+  padding-top: 110px;
+  padding-bottom: 100px;
 
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    }
+  .grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
 
-    .access_text {
-        max-width: 80%;
-   
+  .access_text {
+    max-width: 80%;
 
     h1 {
-        font-size: 30px;
-        font-family: $mainFont;
-        font-weight: 700;
+      font-size: 30px;
+      font-family: $mainFont;
+      font-weight: 700;
     }
 
     p {
-        margin-top: 35px;
+      margin-top: 35px;
+    }
+  }
+
+  .access_input {
+    align-self: center;
+    width: 80%;
+    margin: auto;
+
+    input {
+      display: block;
+      width: 100%;
+      padding: 20px 10px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     }
 
+    input::placeholder {
+      font-size: 14px;
+      color: rgb(214, 214, 214);
     }
 
-    .access_input {
-        align-self: center;
-        width: 80%;
-        margin: auto;
-    
-       
-        input {
-            display: block;
-            width: 100%;
-            padding: 20px 10px;
-            border-radius: 5px;
-            box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
-        }
-
-        input::placeholder {
-            font-size: 14px;
-            color: rgb(214, 214, 214);
-        }
-
-        button {
-            margin-top: 15px;
-            padding: 15px 35px;
-        }
-
-        .mainButton:hover {
-            background-color: $mainHover;
-            box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
-        }
-
-
+    button {
+      margin-top: 15px;
+      padding: 15px 35px;
     }
+
+    .mainButton:hover {
+      background-color: $mainHover;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+  }
 }

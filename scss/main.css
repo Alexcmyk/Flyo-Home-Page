@@ -348,6 +348,7 @@ button {
 .early_access .grid {
   display: -ms-grid;
   display: grid;
+  justify-items: center;
   -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
@@ -472,7 +473,7 @@ footer .social {
 }
 
 footer .social i {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 1260px) {
@@ -533,9 +534,6 @@ footer .social i {
   .hero .hero_cta .mainEmail {
     width: 100%;
   }
-  .stay_productive {
-    border: solid 1px red;
-  }
   .stay_productive .productive_image {
     -ms-grid-row: 1;
     grid-row: 1;
@@ -544,14 +542,44 @@ footer .social i {
         justify-self: center;
     margin-bottom: 30px;
   }
+  .stay_productive .productive_text {
+    padding: 20px 0;
+  }
   .stay_productive .productive_text .mainTitle {
     text-align: center;
     font-size: 32px;
+  }
+  .stay_productive .productive_text .link {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .stay_productive .productive_text .quote {
     max-width: 70%;
     font-size: 14px;
     margin: 80px auto 0 auto;
+  }
+  .early_access {
+    text-align: center;
+  }
+  .early_access .access_text {
+    margin-bottom: 30px;
+  }
+  footer {
+    padding-left: 40px;
+  }
+  footer .grid {
+    display: inline-block;
+  }
+  footer .contact {
+    margin-bottom: 30px;
+  }
+  footer .col-one {
+    margin-bottom: 30px;
+  }
+  footer .col-one a,
+  footer .col-two a {
+    margin-bottom: 10px;
   }
 }
 

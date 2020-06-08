@@ -68,8 +68,6 @@
   }
 
   .stay_productive {
-    border: solid 1px red;
-
     .productive_image {
       grid-row: 1;
       max-width: 80%;
@@ -78,9 +76,15 @@
     }
 
     .productive_text {
+      padding: 20px 0;
       .mainTitle {
         text-align: center;
         font-size: 32px;
+      }
+
+      .link {
+        left: 50%;
+        transform: translateX(-50%);
       }
 
       .quote {
@@ -88,6 +92,32 @@
         font-size: 14px;
         margin: 80px auto 0 auto;
       }
+    }
+  }
+
+  .early_access {
+    text-align: center;
+    .access_text {
+      margin-bottom: 30px;
+    }
+  }
+
+  footer {
+    padding-left: 40px;
+    .grid {
+      display: inline-block;
+    }
+    .contact {
+      margin-bottom: 30px;
+    }
+
+    .col-one {
+      margin-bottom: 30px;
+    }
+
+    .col-one a,
+    .col-two a {
+      margin-bottom: 10px;
     }
   }
 }
